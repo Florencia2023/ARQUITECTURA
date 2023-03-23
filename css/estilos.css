@@ -1,0 +1,53 @@
+.imglogo {
+  width: 3cm;
+}
+
+.vertical {
+  width: 100%;
+  height: 75%;
+}
+
+.vertical_dos {
+  width: 100%;
+  height: 100%;
+}
+
+.horizontal {
+  width: 100%;
+  height: 50%;
+}
+
+.logo_uno {
+  width: 100%;
+}
+
+.gridcontainer {
+  margin-top: 2cm;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "imagen_uno titulo_index imagen_dos" "imagen_uno imagen_tres imagen_cuatro";
+}
+.gridcontainer .imagen_uno {
+  grid-area: imagen_uno;
+}
+.gridcontainer .titulo_index {
+  grid-area: titulo_index;
+  background-color: orangered;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gridcontainer .imagen_dos {
+  grid-area: imagen_dos;
+}
+.gridcontainer .imagen_tres {
+  grid-area: imagen_tres;
+}
+.gridcontainer .imagen_cuatro {
+  grid-area: imagen_cuatro;
+}
+
+/*# sourceMappingURL=estilos.css.map */
